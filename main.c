@@ -4,15 +4,12 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int x, y;
-	printf("input two integers :");
-	scanf("%i %i", &x, &y);
+	int x;
 	
-	printf("+ result is %i\n", x+y);
-	printf("- result is %i\n", x-y);
-	printf("* result is %i\n", x*y);
-	printf("/ result is %i\n", x/y);
-	printf("%% result is %i\n", x%y);
+	printf("input the second :");
+	scanf("%i", &x);
+	
+	printf("the time is %i : %i", x/60, x%60);
 	
 	return 0;
 }
